@@ -9,3 +9,35 @@
   position: relative;
   margin-bottom: 20px;  
 }
+
+.navbar-inverse .navbar-inner {
+  background: #E67E22;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.navbar-inverse .nav .active > a, 
+.navbar-inverse .nav .active > a:hover, 
+.navbar-inverse .nav .active > a:focus {
+  color: rgb(52, 73, 94);
+}
+
+.navbar {
+  .nav {
+    li {
+      a {
+        &:hover {
+          color: rgb(52, 73, 94);
+        }
+      }
+    }
+  }
+}
+
+.btn-toolbar.options {
+  margin-top: 25px;
+}
+    
+.mt25 {
+  margin-top: 25px;
+}
